@@ -1,0 +1,15 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+
+// Sub Folder Imports
+
+@import '0-base/base.scss';
+@import '1-layout/layout.scss';
+@import '2-components/components.scss';
+@import '3-modules/modules.scss';
+@import '4-responsive/responsive.scss';
+
+:root{
+	font-size: 14px;
+}

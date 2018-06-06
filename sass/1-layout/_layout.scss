@@ -1,0 +1,66 @@
+section#hero{
+	margin: 0;
+}
+section#categories{
+	margin: 0;
+	background-color: $black;
+	.col-xs-12{
+		padding: 0;
+		a{
+			display: block;
+			position: relative;
+			.img-full{
+				height: 300px;
+				object-fit: cover;
+	    		object-position: center;
+	    		transition: all ease-in-out 0.3s;
+			}
+			h3{
+				position: absolute;
+				top:0;
+				width: 100%;
+				text-align: center;
+				color: $white;
+				line-height: 300px;
+				opacity: 0;
+				transition: all ease-in-out 0.3s;
+			}
+			&:hover{
+				.img-full{
+					height: 300px;
+					object-fit: cover;
+		    		object-position: center;
+		    		opacity: 0.5;
+				}	
+				h3{
+					opacity: 1;
+				}
+			}	
+		}
+		
+	}
+}
+
+section#brands{
+	h1{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.col-xs-6{
+		a{
+			display: block;
+			img{
+				width: 100%;
+				filter: grayscale(100%);
+			    transform: scale(.7);
+			    transition: 0.3s all ease-in-out;
+			}
+			&:hover{
+				img{
+					filter: grayscale(0%);
+			    	transform: scale(1);
+				}
+			}
+		}
+	}
+}

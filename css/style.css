@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5, p {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.5rem; }
+
+section {
+  margin: 50px 0; }
+
+section#hero {
+  margin: 0; }
+
+section#categories {
+  margin: 0;
+  background-color: #000000; }
+  section#categories .col-xs-12 {
+    padding: 0; }
+    section#categories .col-xs-12 a {
+      display: block;
+      position: relative; }
+      section#categories .col-xs-12 a .img-full {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        transition: all ease-in-out 0.3s; }
+      section#categories .col-xs-12 a h3 {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        line-height: 300px;
+        opacity: 0;
+        transition: all ease-in-out 0.3s; }
+      section#categories .col-xs-12 a:hover .img-full {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        opacity: 0.5; }
+      section#categories .col-xs-12 a:hover h3 {
+        opacity: 1; }
+
+section#brands h1 {
+  text-align: center;
+  margin-bottom: 30px; }
+section#brands .col-xs-6 a {
+  display: block; }
+  section#brands .col-xs-6 a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transform: scale(0.7);
+    transition: 0.3s all ease-in-out; }
+  section#brands .col-xs-6 a:hover img {
+    filter: grayscale(0%);
+    transform: scale(1); }
+
+img.img-full {
+  width: 100%; }
+
+@media screen and (max-width: 670px) {
+  section#content-someting .container-fluid .row .col-xl-6 .vertical-center {
+    padding: 50px; } }
+:root {
+  font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
